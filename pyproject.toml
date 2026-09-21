@@ -7,10 +7,13 @@ authors = [
     { name = "e-drean-avrillon-ece", email = "edwin.dreanavrillon@edu.ece.fr" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "faker>=40.37.0",
+]
 
 [project.scripts]
-work = "work:main"
+dataset-users = "work.dataset_users:main"
+dataset-orders = "work.dataset_orders:main"
 
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
