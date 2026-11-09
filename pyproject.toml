@@ -10,6 +10,8 @@ requires-python = ">=3.13"
 dependencies = [
     "dbt-duckdb>=1.11.1",
     "faker>=40.37.0",
+    "pandas>=3.1.1",
+    "trino>=0.340.0",
 ]
 
 [project.scripts]
